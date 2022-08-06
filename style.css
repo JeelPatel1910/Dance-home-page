@@ -15,6 +15,7 @@ body{
     background-image: url('./images/pexels-rfstudio-3819572.jpg');
     background-size: cover;
     width: 36%;
+    padding: 3%;
 }
 .right{
     width: 64%;
