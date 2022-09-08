@@ -174,7 +174,13 @@ nav hr{
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) and (min-width: 1080px){
+    .nav_list{
+        width: 70%;
+    }
+    hr{
+        width: 30%;
+    }
     .heading {
         font-size: 3rem;
         line-height: 5rem;
@@ -195,5 +201,195 @@ nav hr{
     }
     .line{
         height: 221px;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 980px){
+    .nav_list{
+        width: 70%;
+    }
+    hr{
+        width: 30%;
+    }
+    .heading {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .main-content h2 {
+        font-size: 1.9rem;
+        width: 60%;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 14px 56px;
+    }
+    .quote_content p {
+        font-size: 1.1rem;
+    }
+    .item{
+        font-size: 1.1rem;
+    }
+    .line{
+        height: 221px;
+    }
+}
+@media screen and (max-width: 980px) and (min-width: 768px){
+    nav{
+        flex-direction: column-reverse;
+    }
+    .nav_list{
+        width: 100%;
+    }
+    nav hr{
+        width: 90%;
+        margin: 5% 0;
+    }
+    .heading {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading{
+        align-self: flex-start;
+    }
+    .social{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .social div {
+        margin: 20% 30% 20% 30%;
+    }
+    .main-content h2 {
+        font-size: 1.9rem;
+        width: 80%;
+        margin-left: 22%;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 14px 56px;
+    }
+    .quote_content p {
+        font-size: 1.1rem;
+    }
+    .item{
+        font-size: 1.1rem;
+    }
+    .line{
+        height: 221px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 580px){
+    nav{
+        flex-direction: column-reverse;
+    }
+    .nav_list{
+        width: 100%;
+    }
+    nav hr{
+        width: 90%;
+        margin: 5% 0;
+    }
+    .heading {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading{
+        align-self: flex-start;
+    }
+    .social{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .social div {
+        margin: 20% 30% 20% 30%;
+    }
+    .main-content h2 {
+        font-size: 1.9rem;
+        width: 80%;
+        margin-left: 22%;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 14px 56px;
+    }
+    .quote_content p {
+        font-size: 1.1rem;
+    }
+    .item{
+        font-size: 1.1rem;
+    }
+    .line{
+        height: 221px;
+    }
+}
+@media screen and (max-width: 580px) and (min-width: 320px){
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column-reverse;
+    }
+    .nav_list{
+        width: 100%;
+    }
+    nav hr{
+        width: 90%;
+        margin: 5% 0;
+    }
+    .heading {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading{
+        align-self: flex-start;
+    }
+    .social{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .social div {
+        margin: 20% 30% 20% 30%;
+    }
+    .main-content h2 {
+        font-size: 1.9rem;
+        width: 80%;
+        margin-left: 23%;
+    }
+    .btn{
+        font-size: 1rem;
+        padding: 14px 56px;
+    }
+    .quote_content p {
+        font-size: 1.1rem;
+    }
+    .item{
+        font-size: 1.1rem;
+    }
+    .line{
+        height: 221px;
+    }
+    .bottom-content {
+        left: 0%;
     }
 }
